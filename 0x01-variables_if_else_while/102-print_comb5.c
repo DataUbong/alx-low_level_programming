@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * main - returns a combination of number
- * Return: return 0 if successful 
+ * Return: return 0 if successful
  */
-int main(void) 
+int main(void)
 {
 	int i, j;
 
