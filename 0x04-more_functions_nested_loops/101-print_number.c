@@ -18,7 +18,7 @@ void print_number(int n)
 	{
 		m = n;
 	}
-	d = m
+	d = m;
 		count = 1;
 	while (d>9)
 	{
