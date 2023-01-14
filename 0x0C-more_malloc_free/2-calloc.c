@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _calloc - allocated momeries for nmemb de size bytes
@@ -18,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (p == NULL)
 		return (NULL);
 
-	for (i = 0; i < nmemb * size; i++)
+	for (i = 0; (i < nmemb * size); i++)
 		p[i] = 0;
 
 	return (p);
